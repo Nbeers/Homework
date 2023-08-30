@@ -1,0 +1,25 @@
+@import "https://assets.codepen.io/10860295/reset.css";
+
+/* YOUR CODE STARTS HERE ----------- */
+
+*{padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+.alert-container{
+  background-color:lightgray;
+  padding:20px;
+  border-radius: 10px;
+  display:flex;
+  align-items:center;
+}
+
+
+span{
+  font-weight:bold;
+}
+
+button{
+  margin-left:auto;
+}

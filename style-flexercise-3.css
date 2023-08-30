@@ -1,0 +1,29 @@
+/* Find three ways to position the link and button at opposite ends of their flex container.
+
+Add a different CSS property to each empty CSS rule below.
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #first-container,
+  #second-container,
+  #third-container {
+    display: flex;
+    margin-block: 1rem;
+  }
+  
+  
+  #first-container {
+    justify-content:space-between;
+  }
+  
+  #second-container button {
+    margin-left:auto;
+  
+  }
+  
+  #third-container a {
+    flex-basis:100%;
+  }
